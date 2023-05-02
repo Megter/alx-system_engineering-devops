@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times but prints Hi at 9
+a=0
+while ((a < 10))
+do
+echo "Best School"
+((a++))
+if [ $a -eq 9 ]
+then
+echo "Hi"
+fi
+done
